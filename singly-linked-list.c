@@ -260,7 +260,7 @@ int deleteLast(headNode* h) {
 		printf("리스트가 비어있습니다.\n");
 		return -1;
 	}
-	listNode* current = h->first; //첫번째 노드를 현재값에 넣음
+	listNode* current = h->first; //첫번째 노드를 currentnode에 넣음
 	listNode* prev = NULL; //prevnode 초기화
 
 	while (current->link != NULL) //마지막 노드의 이전 노드까지 이동
